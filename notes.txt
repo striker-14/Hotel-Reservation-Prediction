@@ -6,3 +6,16 @@ venv at the end is the name of the environment
 # Before Versioning in GitHub make sure you delete random_forest.pkl file in notebook because its size is large and github doesn't allow that
 
 # For Code and Data Versioning both, we will be using GitHub only
+
+''' Using ChatGPT for styling
+
+in static folder create style.css, link this with index.html using - <link rel="stylesheet" href="{{ url_for('static' , filename='style.css') }}">
+
+Now, copy your whole index.html code and go chatGPT and paste it and give prompt - Give me interactive external CSS styling for this website
+'''
+
+''' CI/CD (Continuos Integration/Continuous Deployment)
+We want as soon as we push our code to GitHub, these code changes will automatically get reflected on the app that we are running on our Google Cloud Platform. Suppose you change the UI, those changes will automatically get reflected (occur at the Google Cloud Platform), you don't have to change them manually
+
+For our project, we will be using Jenkins as a tool for our CI/CD deployment
+'''

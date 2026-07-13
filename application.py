@@ -37,4 +37,4 @@ def index():
     return render_template("index.html" , prediction=None) # if you're not getting any input, then also you HTML file should be running
 
 if __name__=="__main__":
-    app.run(host='0.0.0.0' , port=5000)
+    app.run(host='0.0.0.0' , port=8080)

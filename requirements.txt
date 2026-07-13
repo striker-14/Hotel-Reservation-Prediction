@@ -5,5 +5,5 @@ scikit-learn
 pyyaml
 imbalanced-learn
 lightgbm
-#pip install mlflow==2.22.1 # to get track of your model, to get track of your experimentation (when we train our model next time, it will be stored as another model in the artifacts folder)
+mlflow==2.22.1 #pip install mlflow==2.22.1 # to get track of your model, to get track of your experimentation (when we train our model next time, it will be stored as another model in the artifacts folder)
 flask

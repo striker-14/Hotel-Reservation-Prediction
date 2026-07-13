@@ -1,0 +1,8 @@
+# To create virtual environment (venv) -> python -m venv venv
+venv at the end is the name of the environment
+
+# After creating __init__.py file, your folder (directory) will be treated as a package
+
+# Before Versioning in GitHub make sure you delete random_forest.pkl file in notebook because its size is large and github doesn't allow that
+
+# For Code and Data Versioning both, we will be using GitHub only

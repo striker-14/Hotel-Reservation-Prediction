@@ -3,7 +3,7 @@ pipeline{
 
     environment {
         VENV_DIR = 'venv'
-        GCP_PROJECT = "mlops-new-447207"
+        GCP_PROJECT = "project-02a04589-8e80-4642-a89"
         GCLOUD_PATH = "/var/jenkins_home/google-cloud-sdk/bin"
     }
 
@@ -12,7 +12,7 @@ pipeline{
             steps{
                 script{
                     echo 'Cloning Github repo to Jenkins............'
-                    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token', url: 'https://github.com/data-guru0/MLOPS-COURSE-PROJECT-1.git']])
+                    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token', url: 'https://github.com/striker-14/Hotel-Reservation-Prediction.git']])
                 }
             }
         }
